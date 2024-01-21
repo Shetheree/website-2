@@ -1,0 +1,128 @@
+body{
+  color: white;
+  background-color: #1E1E1E;
+}
+
+.navbar ul{
+overflow: auto;
+}
+.navbar li{
+float:left;
+list-style: none;
+margin: 15px 20px;
+
+}
+.navbar li a{
+text-decoration: none;
+padding: 10px 10px;
+color:white
+} 
+.navbar li a:hover{
+color: red;
+transition: 0.5s;
+
+
+
+}
+.search{
+float:right;
+color:white;
+padding: 12px 40px;
+text-align: center;
+
+
+}
+
+.search-box{
+  width: 35tht0px;
+}
+.navbar input{
+border: 2px solid black;
+border-radius: 30px;
+padding:10px;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display:none;
+position: absolute;
+background-color: black;
+min-width: 180px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.navbar { 
+width: 100vw; 
+height: 100vh; 
+
+color: black; 
+font-weight: bold; 
+} 
+
+.navbar::before{
+content: '';
+background: url();
+position:absolute;
+top:0px;
+left:0px;
+}
+
+.navbar::before { 
+content: ''; 
+background: url("Images/background.jpg")  
+    no-repeat center center/cover; 
+position: absolute;
+background-position:center; 
+background-size: cover;
+background-repeat: no-repeat;
+opacity: 0.5; 
+top: 0px; 
+left: 0px; 
+width: 100vw; 
+height: 100vh; 
+z-index: -1; 
+} 
+
+.navbarcont{
+height: 66%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0 auto;
+align-items: center;
+align-content: center;
+align-self: center;
+}
+
+.navbarcont h1{
+font-size: 3.6rem;
+color: transparent;
+-webkit-text-stroke: violet;
+-webkit-text-stroke-width: 2px;
+}
+
+.divein{
+background-color: red;
+color: white;
+padding: 14px 32px;
+border-radius: 20px;
+font-size: 1.2rem;
+}
